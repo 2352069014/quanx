@@ -29,9 +29,9 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                                         <li>
-                        <a href="#">系统</a>
+                        <a href="#">栏目管理</a>
                     </li>
-                                        <li class="active">管理员管理</li>
+                                        <li class="active">栏目列表</li>
                                         </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -39,7 +39,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-<button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('index/add')}'"> <i class="fa fa-plus"></i> Add
+<button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('cate/add')}'"> <i class="fa fa-plus"></i> Add
 </button>
 <div class="row">
     <div class="col-lg-12 col-sm-12 col-xs-12">
@@ -50,29 +50,48 @@
                         <thead class="">
                             <tr>
                                 <th class="text-center">ID</th>
-                                <th class="text-center">用户名称</th>
+                                <th class="text-center">栏目名称</th>
+                                <th class="text-center">栏目类型</th>
+                                <th class="text-center">栏目关键词</th>
+                                <th class="text-center">栏目描述</th>
+                                <th class="text-center">栏目内容</th>
+                                <th class="text-center">是否推荐</th>
+                                <th class="text-center">是否推荐</th>
+                                <th class="text-center">上级栏目id</th>
+                                <th class="text-center">排序</th>
                                 <th class="text-center">操作</th>
                             </tr>
                         </thead>
                         <tbody>
                         {volist name = "info" id = "value"}
-                                                        <tr>
+                        <tr>
                                 <td align="center">{$value.id}</td>
-                                <td align="center">{$value.name}</td>
+                                <td align="left">{:str_repeat('|---',$value['level'])}{$value.catename}</td>
                                 <td align="center">
-                                    <a href="{:url('index/edit',array('id'=>$value['id']))}" class="btn btn-primary btn-sm shiny">
+                                    {if condition = " $value['type'] eq 1"} 列表
+                                    {else /}单页
+                                    {/if}
+                                </td>
+                                <td align="center">{$value.keywords}</td>
+                                <td align="center">{$value.desc}</td>
+                                <td align="center">{$value.content}</td>
+                                <td align="center">{$value.rec_index}</td>
+                                <td align="center">{$value.rec_bottom}</td>
+                                <td align="center">{$value.pid}</td>
+                                <td align="center">{$value.sort}</td>
+                                <td align="center">
+                                    <a href="{:url('cate/edit',array('id'=>$value['id']))}" class="btn btn-primary btn-sm shiny">
                                         <i class="fa fa-edit"></i> 编辑
                                     </a>
-                                    <a href="#" onClick="warning('确实要删除吗', '{:url('index/del',array('id'=>$value['id']))}')" class="btn btn-danger btn-sm shiny">
+                                    <a href="#" onClick="warning('确实要删除吗', '{:url('cate/del',array('id'=>$value['id']))}')" class="btn btn-danger btn-sm shiny">
                                         <i class="fa fa-trash-o"></i> 删除
                                     </a>
                                 </td>
-                            </tr>
+                        </tr>
                         {/volist}
                                                     </tbody>
                     </table>
                     <div class="render">
-                        {$info->render()}
                     </div>
 
                 </div>

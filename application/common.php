@@ -10,3 +10,7 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+function msgReturn($msg, $code = -1, $data = [])
+{
+	return array('code' => $code, 'msg' => $msg, 'data' => $data);
+}

@@ -9,4 +9,21 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+	public function article()
+	{
+		return $this->fetch();
+	}
+	public function artlist()
+	{
+		return $this->fetch();
+	}
+	public function imglist()
+	{
+		return $this->fetch();
+	}
+	public function page()
+	{
+		return $this->fetch();
+	}
+
 }

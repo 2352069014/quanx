@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/index\view\index\index.htm";i:1583200696;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\index\view\public\top.htm";i:1583200575;s:74:"F:\phpstudy\PHPTutorial\WWW\quanx\application\index\view\public\footer.htm";i:1583200679;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,19 +7,19 @@
 <title>童老师ThinkPHP5交流群：484519446</title>
 <meta name="description" content="童老师ThinkPHP5交流群：484519446" />
 <meta name="keywords" content="童老师ThinkPHP5交流群：484519446" />
-<link rel="stylesheet" type="text/css" media="all" href="__FONT__/style/style.css" />
-    <script type="text/javascript" src="__FONT__/style/jquery-1.4.1.min.js"></script>
-    <script type="text/javascript" src="__FONT__/style/jquery.js"></script>
-    <script src="__FONT__/style/jquery.error.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jtemplates.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.form.js" type="text/javascript"></script>
-    <script src="__FONT__/style/lazy.js" type="text/javascript"></script>
-    <script type="text/javascript" src="__FONT__/style/wp-sns-share.js"></script>
-    <script type="text/javascript" src="__FONT__/style/voterajax.js"></script>
-    <script type="text/javascript" src="__FONT__/style/userregister.js"></script>
-    <link rel="stylesheet" href="__FONT__/style/pagenavi-css.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="__FONT__/style/votestyles.css" type="text/css" />
-    <link rel="stylesheet" href="__FONT__/style/voteitup.css" type="text/css" />
+<link rel="stylesheet" type="text/css" media="all" href="/index/style/style.css" />
+    <script type="text/javascript" src="/index/style/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="/index/style/jquery.js"></script>
+    <script src="/index/style/jquery.error.js" type="text/javascript"></script>
+    <script src="/index/style/jtemplates.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.form.js" type="text/javascript"></script>
+    <script src="/index/style/lazy.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/index/style/wp-sns-share.js"></script>
+    <script type="text/javascript" src="/index/style/voterajax.js"></script>
+    <script type="text/javascript" src="/index/style/userregister.js"></script>
+    <link rel="stylesheet" href="/index/style/pagenavi-css.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/index/style/votestyles.css" type="text/css" />
+    <link rel="stylesheet" href="/index/style/voteitup.css" type="text/css" />
 <script type="text/javascript">
     function IFocuse(th, o) {
         var t = $(th);
@@ -33,7 +34,7 @@
 </script>
 </head>
 <body class="xh_body">
-<script src="__FONT__/style/common.js" type="text/javascript"></script>
+<script src="/index/style/common.js" type="text/javascript"></script>
  <script>
  function subForm()
  {
@@ -50,7 +51,90 @@
     }  
 </script>
 <div id="mask" class="mask" onclick="CloseMask()"></div> 
-{include file="public/top"}
+<div id="header_wrap">
+    <div id="header">
+        <div style="float: left; width: 310px;">
+            <h1>
+                <a href="/" title="宽屏大气文章类--41天鹰模板">宽屏大气文章类--41天鹰模板</a>
+                <div class="" id="logo-sub-class">
+                </div>
+            </h1>
+        </div>
+        <div id="navi">
+
+            <ul id="jsddm">
+                <li><a class="navi_home" href="/">首页</a></li>
+                <li><a class="navi_home" target="_blank" href="http://www.chuanke.com/s2260700.html">ThinkPHP5视频教程</a></li>
+                <li><a href="/lookbike/">单车分类</a>
+                    <ul>
+
+                        <li><a href="/lookbike/fixed-gear/">死飞车</a></li>
+
+                        <li><a href="/lookbike/vintagebicycle/">复古骑行</a></li>
+
+                        <li><a href="/lookbike/roadbicycle/">公路车</a></li>
+
+                        <li><a href="/lookbike/mountainbike/">山地车</a></li>
+
+                        <li><a href="/lookbike/small/">折叠/小径车</a></li>
+
+                        <li><a href="/lookbike/bmx/">BMX</a></li>
+
+                        <li><a href="/lookbike/otherbike/">城市车及其他</a></li>
+
+
+                    </ul>
+
+                    </li2><li><a href="/gear/">骑行装备</a>
+                <ul>
+
+                    <li><a href="/gear/accessories/">车身装备</a></li>
+
+                    <li><a href="/gear/rs/">人身装备</a></li>
+
+
+                </ul>
+
+                </li2><li><a href="/life/">单车生活</a>
+
+
+
+
+
+                </li2><li><a href="/news/">行业资讯</a>
+
+
+
+
+
+                </li2>
+
+            </ul>
+
+            <div style="clear: both;">
+            </div>
+
+
+        </div>
+        <div style="float: right; width: 209px;">
+            <div class="widget" style="height: 30px; padding-top: 20px;">
+                <div style="float: left;">
+                    <form  name="formsearch" action="/plus/search.php"><input type="hidden" name="kwtype" value="0" />
+                        <input name="q" type="text" style="background-color: #000000;padding-left: 10px; font-size: 12px;font-family: 'Microsoft Yahei'; color: #999999;height: 29px; width: 160px; border: solid 1px #666666; line-height: 28px;" id="go" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+                    </form>
+                </div>
+                <div style="float: left;">
+                    <img src="/index/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
+                        padding: 0px;" onclick="subForm()"  /></div>
+                <div style="clear: both;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
     <div id="xh_wrapper">
        
 <input type="hidden" id="hdUrlFocus" />
@@ -61,13 +145,13 @@
     <div id="picshow_img">
         <ul>
 <li style="display: list-item;"><a href="/life/361.html" target="_blank">
-                <img src="__FONT__/images/1-140206162449A0.jpg" alt="骑行40000公里 英国胶片摄影师的骑游之旅"></a></li>
+                <img src="/index/images/1-140206162449A0.jpg" alt="骑行40000公里 英国胶片摄影师的骑游之旅"></a></li>
 <li style="display: list-item;"><a href="/life/394.html" target="_blank">
-                <img src="__FONT__/images/354.jpg" alt="骑看世界：春节骑行海南岛 畅游冬日骑行天堂"></a></li>
+                <img src="/index/images/354.jpg" alt="骑看世界：春节骑行海南岛 畅游冬日骑行天堂"></a></li>
 <li style="display: list-item;"><a href="/life/364.html" target="_blank">
-                <img src="__FONT__/images/1-1402061A315209.jpg" alt="隆猫西班牙自行车之旅-Mallorca岛梦幻旅程（上）"></a></li>
+                <img src="/index/images/1-1402061A315209.jpg" alt="隆猫西班牙自行车之旅-Mallorca岛梦幻旅程（上）"></a></li>
 <li style="display: list-item;"><a href="/gear/rs/320.html" target="_blank">
-                <img src="__FONT__/images/1-1402061A155W4.jpg" alt="#CES展上的新玩意# Casio 发布 STB-1000 智能手表 可同步骑行速"></a></li>
+                <img src="/index/images/1-1402061A155W4.jpg" alt="#CES展上的新玩意# Casio 发布 STB-1000 智能手表 可同步骑行速"></a></li>
 
 
 
@@ -88,9 +172,9 @@
             </div>
             <div id="picshow_right">
       <a href="/life/416.html" target="_blank">
-    <img src="__FONT__/images/1-140206160415Y6.jpg" alt="COACH再度携手王力宏 踩单车演" width="255px" height="420px"></a>
+    <img src="/index/images/1-140206160415Y6.jpg" alt="COACH再度携手王力宏 踩单车演" width="255px" height="420px"></a>
    
-            <div id="picshow_right_cover" onclick="goanewurl()" style="cursor:pointer;position:absolute;top:495px;font-size:14px;width:213px;height:45px;line-height:45px;padding-left:42px;color:#ffffff;zoom:1;background-image:url(__FONT__/images/focus-left-bg.png); background-repeat:no-repeat; background-color:#01A1ED;"></div>
+            <div id="picshow_right_cover" onclick="goanewurl()" style="cursor:pointer;position:absolute;top:495px;font-size:14px;width:213px;height:45px;line-height:45px;padding-left:42px;color:#ffffff;zoom:1;background-image:url(/index/images/focus-left-bg.png); background-repeat:no-repeat; background-color:#01A1ED;"></div>
             </div>
         </div>
     </div>
@@ -122,7 +206,7 @@
     <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/life/392.html" title="骑看世界：三个女孩的欧洲骑行之路">
-                                    <img src="__FONT__/images/352.jpg" alt="骑看世界：三个女孩的欧洲骑行之路" height="240" width="400"></a></div>
+                                    <img src="/index/images/352.jpg" alt="骑看世界：三个女孩的欧洲骑行之路" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/life/392.html" title="骑看世界：三个女孩的欧洲骑行之路">骑看世界：三个女孩的欧洲骑行之路</a>
@@ -140,7 +224,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/life/395.html" title="骑看世界：探索地中海科西嘉岛">
-                                    <img src="__FONT__/images/355.jpg" alt="骑看世界：探索地中海科西嘉岛" height="240" width="400"></a></div>
+                                    <img src="/index/images/355.jpg" alt="骑看世界：探索地中海科西嘉岛" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/life/395.html" title="骑看世界：探索地中海科西嘉岛">骑看世界：探索地中海科西嘉岛</a>
@@ -158,7 +242,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/gear/rs/360.html" title=" Forward Set x Bicycle Belts联合出品U型锁腰带U-Lock Belt">
-                                    <img src="__FONT__/images/320.jpg" alt=" Forward Set x Bicycle Belts联合出品U型锁腰带U-Lock Belt" height="240" width="400"></a></div>
+                                    <img src="/index/images/320.jpg" alt=" Forward Set x Bicycle Belts联合出品U型锁腰带U-Lock Belt" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/gear/rs/360.html" title=" Forward Set x Bicycle Belts联合出品U型锁腰带U-Lock Belt"> Forward Set x Bicycle Belts联合出品U型锁腰带U-Lock Belt</a>
@@ -176,7 +260,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/gear/accessories/359.html" title="硅胶环保材质 Bone iPhone5 单车号角扬声器">
-                                    <img src="__FONT__/images/319.jpg" alt="硅胶环保材质 Bone iPhone5 单车号角扬声器" height="240" width="400"></a></div>
+                                    <img src="/index/images/319.jpg" alt="硅胶环保材质 Bone iPhone5 单车号角扬声器" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/gear/accessories/359.html" title="硅胶环保材质 Bone iPhone5 单车号角扬声器">硅胶环保材质 Bone iPhone5 单车号角扬声器</a>
@@ -194,7 +278,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/bmx/240.html" title="Alain Massabova: 40 Years in Paris BMX 视频">
-                                    <img src="__FONT__/images/200.jpg" alt="Alain Massabova: 40 Years in Paris BMX 视频" height="240" width="400"></a></div>
+                                    <img src="/index/images/200.jpg" alt="Alain Massabova: 40 Years in Paris BMX 视频" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/bmx/240.html" title="Alain Massabova: 40 Years in Paris BMX 视频">Alain Massabova: 40 Years in Paris BMX 视频</a>
@@ -212,7 +296,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/small/200.html" title="Tyrell唯一的折叠小径车Tyrell FX">
-                                    <img src="__FONT__/images/160.jpg" alt="Tyrell唯一的折叠小径车Tyrell FX" height="240" width="400"></a></div>
+                                    <img src="/index/images/160.jpg" alt="Tyrell唯一的折叠小径车Tyrell FX" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/small/200.html" title="Tyrell唯一的折叠小径车Tyrell FX">Tyrell唯一的折叠小径车Tyrell FX</a>
@@ -230,7 +314,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/mountainbike/160.html" title="登山新伙伴 全球限量80台的奔驰山地车">
-                                    <img src="__FONT__/images/120.jpg" alt="登山新伙伴 全球限量80台的奔驰山地车" height="240" width="400"></a></div>
+                                    <img src="/index/images/120.jpg" alt="登山新伙伴 全球限量80台的奔驰山地车" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/mountainbike/160.html" title="登山新伙伴 全球限量80台的奔驰山地车">登山新伙伴 全球限量80台的奔驰山地车</a>
@@ -248,7 +332,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/roadbicycle/120.html" title="Rapha Continental x Vandeyk 联名手工车款">
-                                    <img src="__FONT__/images/80.jpg" alt="Rapha Continental x Vandeyk 联名手工车款" height="240" width="400"></a></div>
+                                    <img src="/index/images/80.jpg" alt="Rapha Continental x Vandeyk 联名手工车款" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/roadbicycle/120.html" title="Rapha Continental x Vandeyk 联名手工车款">Rapha Continental x Vandeyk 联名手工车款</a>
@@ -266,7 +350,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/vintagebicycle/80.html" title="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览">
-                                    <img src="__FONT__/images/40.jpg" alt="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览" height="240" width="400"></a></div>
+                                    <img src="/index/images/40.jpg" alt="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/vintagebicycle/80.html" title="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览">硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览</a>
@@ -284,7 +368,7 @@
 <div class="xh_post_h_3 ofh">
                             <div class="xh_265x265">
                                 <a target="_blank" href="/lookbike/fixed-gear/40.html" title="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示">
-                                    <img src="__FONT__/images/40.jpg" alt="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示" height="240" width="400"></a></div>
+                                    <img src="/index/images/40.jpg" alt="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh">
                                     <a target="_blank" href="/lookbike/fixed-gear/40.html" title="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示">[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示</a>
@@ -302,34 +386,34 @@
      
   
             </div>
-            <div id="pagination"><div class='wp-pagenavi'> <a href="/lookbike/" style='float:right;'><img src='__FONT__/images/next01.png' id='next-page'></a></div></div>
+            <div id="pagination"><div class='wp-pagenavi'> <a href="/lookbike/" style='float:right;'><img src='/index/images/next01.png' id='next-page'></a></div></div>
         </div>
         <div id="xh_sidebar">
 
          <div class="widget">
 
-<div style="background: url('__FONT__/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
+<div style="background: url('/index/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
 </div>
 <ul id="ulHot">
 
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank"><img src="__FONT__/images/68.png" width="83" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank"><img src="/index/images/68.png" width="83" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车">环西冠军克里斯霍纳的个性化定制座驾 Trek Ma</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank"><img src="__FONT__/images/146.jpg" width="83" title="英式折叠车Brompton Junction 上海旗舰店" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank"><img src="/index/images/146.jpg" width="83" title="英式折叠车Brompton Junction 上海旗舰店" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank" title="英式折叠车Brompton Junction 上海旗舰店">英式折叠车Brompton Junction 上海旗舰店</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/368.html" target="_blank"><img src="__FONT__/images/327.jpg" width="83" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/368.html" target="_blank"><img src="/index/images/327.jpg" width="83" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/368.html" target="_blank" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅">骑摆记：比利时车手Joris的尼泊尔野马河谷山</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/378.html" target="_blank"><img src="__FONT__/images/335.jpg" width="83" title="深圳设计师浩子和77的11天成都-稻城自虐骑行" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/378.html" target="_blank"><img src="/index/images/335.jpg" width="83" title="深圳设计师浩子和77的11天成都-稻城自虐骑行" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/378.html" target="_blank" title="深圳设计师浩子和77的11天成都-稻城自虐骑行">深圳设计师浩子和77的11天成都-稻城自虐骑行</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/news/398.html" target="_blank"><img src="__FONT__/images/359.jpg" width="83" title="爱车出行新概念 YAKIMA与WHISPBAR将在中国自行车展同台亮相" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/news/398.html" target="_blank"><img src="/index/images/359.jpg" width="83" title="爱车出行新概念 YAKIMA与WHISPBAR将在中国自行车展同台亮相" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/news/398.html" target="_blank" title="爱车出行新概念 YAKIMA与WHISPBAR将在中国自行车展同台亮相">爱车出行新概念 YAKIMA与WHISPBAR将在中国自</a></div>
 </li>
 
@@ -339,7 +423,7 @@
             <div class="widget portrait">
     <div>
         <div class="textwidget">
-            <a href="/tougao.html"><img src="__FONT__/images/tg.jpg" alt="投稿"></a><br><br>
+            <a href="/tougao.html"><img src="/index/images/tg.jpg" alt="投稿"></a><br><br>
         </div>
     </div>
 </div>
@@ -364,8 +448,8 @@
     <input type="hidden" id="hdBoxbor" />
     <script type="text/javascript">
 
-        $("#next-page").hover(function () { $(this).attr("src", "__FONT__/images/next02.png"); }, function () { $(this).attr("src", "__FONT__/images/next01.png"); });
-        $("#last-page").hover(function () { $(this).attr("src", "__FONT__/images/last02.png"); }, function () { $(this).attr("src", "__FONT__/images/last01.png"); });
+        $("#next-page").hover(function () { $(this).attr("src", "/index/images/next02.png"); }, function () { $(this).attr("src", "/index/images/next01.png"); });
+        $("#last-page").hover(function () { $(this).attr("src", "/index/images/last02.png"); }, function () { $(this).attr("src", "/index/images/last01.png"); });
 
         $(function () {
             var imgHoverSetTimeOut = null;
@@ -470,14 +554,32 @@
         <h5>
             FOLLOW US</h5>
         
-                        <img src="__FONT__/images/weixin.jpg" alt="" title="扫描添加我们的公众微信" class="alignnone size-full wp-image-18966"
+                        <img src="/index/images/weixin.jpg" alt="" title="扫描添加我们的公众微信" class="alignnone size-full wp-image-18966"
                             height="140" width="120"></a></div>
 </div>
-{include file="public/footer"}
+<div id="footer_wrap">
+    <div id="footer">
+        <div class="footer_navi">
+            <ul id="menu-%e5%b0%be%e9%83%a8%e5%af%bc%e8%88%aa" class="menu">
+                <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
+                    <a href="/aboutus.html">关于我们</a></li>
+                <li id="menu-item-157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-157">
+                    <a href="/news/">行业资讯</a></li>
+                <li id="menu-item-158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-158">
+                    <a href="/tougao.html">我要投稿</a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <span class="legal">Copyright &#169; 2016-2020 qq群：484519446 版权所有&#160;&#160;&#160;<a href="#">
+                琼ICP备******号</a>&#160;&#160;&#160;
+
+        </div>
+    </div>
+</div>
 <div style="display: none;" id="scroll">
 </div>
   
-<script type="text/javascript" src="__FONT__/style/z700bike_global.js"></script>
+<script type="text/javascript" src="/index/style/z700bike_global.js"></script>
 </body>
 </html>
 <html>

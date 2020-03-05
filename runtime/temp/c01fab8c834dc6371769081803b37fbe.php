@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/index\view\index\artlist.htm";i:1583201340;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\index\view\public\top.htm";i:1583200575;s:74:"F:\phpstudy\PHPTutorial\WWW\quanx\application\index\view\public\footer.htm";i:1583200679;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,19 +6,19 @@
 <title>童老师ThinkPHP5交流群：484519446</title>
 <meta name="description" content="童老师ThinkPHP5交流群：484519446" />
 <meta name="keywords" content="童老师ThinkPHP5交流群：484519446" />
-<link rel="stylesheet" type="text/css" media="all" href="__FONT__/style/style.css" />
-    <script src="__FONT__/style/jquery-1.4.1.min.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.error.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jtemplates.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.form.js" type="text/javascript"></script>
-    <script src="__FONT__/style/lazy.js" type="text/javascript"></script>
-    <script type="text/javascript" src="__FONT__/style/wp-sns-share.js"></script>
-    <script type="text/javascript" src="__FONT__/style/voterajax.js"></script>
-    <script type="text/javascript" src="__FONT__/style/userregister.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/index/style/style.css" />
+    <script src="/index/style/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.error.js" type="text/javascript"></script>
+    <script src="/index/style/jtemplates.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.form.js" type="text/javascript"></script>
+    <script src="/index/style/lazy.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/index/style/wp-sns-share.js"></script>
+    <script type="text/javascript" src="/index/style/voterajax.js"></script>
+    <script type="text/javascript" src="/index/style/userregister.js"></script>
 
-    <link rel="stylesheet" href="__FONT__/style/votestyles.css" type="text/css" />
-    <link rel="stylesheet" href="__FONT__/style/voteitup.css" type="text/css" />
-   <link rel="stylesheet" href="__FONT__/style/list.css" type="text/css" />
+    <link rel="stylesheet" href="/index/style/votestyles.css" type="text/css" />
+    <link rel="stylesheet" href="/index/style/voteitup.css" type="text/css" />
+   <link rel="stylesheet" href="/index/style/list.css" type="text/css" />
 </head>
 <body id="list_style_2" class="list_style_2">
  <script>
@@ -36,7 +37,90 @@
     }  
 </script>
 <div id="mask" class="mask" onclick="CloseMask()"></div> 
-{include file="public/top"}
+<div id="header_wrap">
+    <div id="header">
+        <div style="float: left; width: 310px;">
+            <h1>
+                <a href="/" title="宽屏大气文章类--41天鹰模板">宽屏大气文章类--41天鹰模板</a>
+                <div class="" id="logo-sub-class">
+                </div>
+            </h1>
+        </div>
+        <div id="navi">
+
+            <ul id="jsddm">
+                <li><a class="navi_home" href="/">首页</a></li>
+                <li><a class="navi_home" target="_blank" href="http://www.chuanke.com/s2260700.html">ThinkPHP5视频教程</a></li>
+                <li><a href="/lookbike/">单车分类</a>
+                    <ul>
+
+                        <li><a href="/lookbike/fixed-gear/">死飞车</a></li>
+
+                        <li><a href="/lookbike/vintagebicycle/">复古骑行</a></li>
+
+                        <li><a href="/lookbike/roadbicycle/">公路车</a></li>
+
+                        <li><a href="/lookbike/mountainbike/">山地车</a></li>
+
+                        <li><a href="/lookbike/small/">折叠/小径车</a></li>
+
+                        <li><a href="/lookbike/bmx/">BMX</a></li>
+
+                        <li><a href="/lookbike/otherbike/">城市车及其他</a></li>
+
+
+                    </ul>
+
+                    </li2><li><a href="/gear/">骑行装备</a>
+                <ul>
+
+                    <li><a href="/gear/accessories/">车身装备</a></li>
+
+                    <li><a href="/gear/rs/">人身装备</a></li>
+
+
+                </ul>
+
+                </li2><li><a href="/life/">单车生活</a>
+
+
+
+
+
+                </li2><li><a href="/news/">行业资讯</a>
+
+
+
+
+
+                </li2>
+
+            </ul>
+
+            <div style="clear: both;">
+            </div>
+
+
+        </div>
+        <div style="float: right; width: 209px;">
+            <div class="widget" style="height: 30px; padding-top: 20px;">
+                <div style="float: left;">
+                    <form  name="formsearch" action="/plus/search.php"><input type="hidden" name="kwtype" value="0" />
+                        <input name="q" type="text" style="background-color: #000000;padding-left: 10px; font-size: 12px;font-family: 'Microsoft Yahei'; color: #999999;height: 29px; width: 160px; border: solid 1px #666666; line-height: 28px;" id="go" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+                    </form>
+                </div>
+                <div style="float: left;">
+                    <img src="/index/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
+                        padding: 0px;" onclick="subForm()"  /></div>
+                <div style="clear: both;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
     <div id="wrapper">
        
 
@@ -49,7 +133,7 @@
     <div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/bmx/240.html" title="Alain Massabova: 40 Years in Paris BMX 视频">
-                                    <img src="__FONT__/images/200.jpg" alt="Alain Massabova: 40 Years in Paris BMX 视频" height="240" width="400"></a></div>
+                                    <img src="/index/images/200.jpg" alt="Alain Massabova: 40 Years in Paris BMX 视频" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/bmx/240.html" title="Alain Massabova: 40 Years in Paris BMX 视频">Alain Massabova: 40 Years in Paris BMX 视频</a>
@@ -68,7 +152,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/small/200.html" title="Tyrell唯一的折叠小径车Tyrell FX">
-                                    <img src="__FONT__/images/160.jpg" alt="Tyrell唯一的折叠小径车Tyrell FX" height="240" width="400"></a></div>
+                                    <img src="/index/images/160.jpg" alt="Tyrell唯一的折叠小径车Tyrell FX" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/small/200.html" title="Tyrell唯一的折叠小径车Tyrell FX">Tyrell唯一的折叠小径车Tyrell FX</a>
@@ -87,7 +171,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/mountainbike/160.html" title="登山新伙伴 全球限量80台的奔驰山地车">
-                                    <img src="__FONT__/images/120.jpg" alt="登山新伙伴 全球限量80台的奔驰山地车" height="240" width="400"></a></div>
+                                    <img src="/index/images/120.jpg" alt="登山新伙伴 全球限量80台的奔驰山地车" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/mountainbike/160.html" title="登山新伙伴 全球限量80台的奔驰山地车">登山新伙伴 全球限量80台的奔驰山地车</a>
@@ -106,7 +190,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/roadbicycle/120.html" title="Rapha Continental x Vandeyk 联名手工车款">
-                                    <img src="__FONT__/images/80.jpg" alt="Rapha Continental x Vandeyk 联名手工车款" height="240" width="400"></a></div>
+                                    <img src="/index/images/80.jpg" alt="Rapha Continental x Vandeyk 联名手工车款" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/roadbicycle/120.html" title="Rapha Continental x Vandeyk 联名手工车款">Rapha Continental x Vandeyk 联名手工车款</a>
@@ -125,7 +209,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/vintagebicycle/80.html" title="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览">
-                                    <img src="__FONT__/images/40.jpg" alt="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览" height="240" width="400"></a></div>
+                                    <img src="/index/images/40.jpg" alt="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/vintagebicycle/80.html" title="硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览">硬朗骑士归来，NEIGHBORHOOD 2013秋冬型录一览</a>
@@ -144,7 +228,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/fixed-gear/40.html" title="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示">
-                                    <img src="__FONT__/images/40.jpg" alt="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示" height="240" width="400"></a></div>
+                                    <img src="/index/images/40.jpg" alt="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/fixed-gear/40.html" title="[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示">[大视野] 固齿公开赛现场 全国fixed gear车友单车及装备展示</a>
@@ -163,7 +247,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/otherbike/279.html" title="意大利品牌Diesel&amp;Pinarello城市车首次亮相上海自行车展">
-                                    <img src="__FONT__/images/239.jpg" alt="意大利品牌Diesel&amp;Pinarello城市车首次亮相上海自行车展" height="240" width="400"></a></div>
+                                    <img src="/index/images/239.jpg" alt="意大利品牌Diesel&amp;Pinarello城市车首次亮相上海自行车展" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/otherbike/279.html" title="意大利品牌Diesel&amp;Pinarello城市车首次亮相上海自行车展">意大利品牌Diesel&amp;Pinarello城市车首次亮相上海自行车展</a>
@@ -183,7 +267,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/otherbike/280.html" title="自行车中阿斯顿·马丁 至简至美Budnitz城市自行车">
-                                    <img src="__FONT__/images/240.jpg" alt="自行车中阿斯顿·马丁 至简至美Budnitz城市自行车" height="240" width="400"></a></div>
+                                    <img src="/index/images/240.jpg" alt="自行车中阿斯顿·马丁 至简至美Budnitz城市自行车" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/otherbike/280.html" title="自行车中阿斯顿·马丁 至简至美Budnitz城市自行车">自行车中阿斯顿·马丁 至简至美Budnitz城市自行车</a>
@@ -203,7 +287,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/otherbike/278.html" title="标致设计实验室力作概念单车 Peugeot Onyx bike">
-                                    <img src="__FONT__/images/238.jpg" alt="标致设计实验室力作概念单车 Peugeot Onyx bike" height="240" width="400"></a></div>
+                                    <img src="/index/images/238.jpg" alt="标致设计实验室力作概念单车 Peugeot Onyx bike" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/otherbike/278.html" title="标致设计实验室力作概念单车 Peugeot Onyx bike">标致设计实验室力作概念单车 Peugeot Onyx bike</a>
@@ -223,7 +307,7 @@
                         </div><div class="xh_post_h_3 ofh">
                             <div class="xh">
                                 <a target="_blank" href="/lookbike/otherbike/277.html" title="NEIGHBORHOOD x 4ING 联合推出儿童自行车Kick Bike">
-                                    <img src="__FONT__/images/237.jpg" alt="NEIGHBORHOOD x 4ING 联合推出儿童自行车Kick Bike" height="240" width="400"></a></div>
+                                    <img src="/index/images/237.jpg" alt="NEIGHBORHOOD x 4ING 联合推出儿童自行车Kick Bike" height="240" width="400"></a></div>
                             <div class="r ofh">
                                 <h2 class="xh_post_h_3_title ofh" style="height:60px;">
                                     <a target="_blank" href="/lookbike/otherbike/277.html" title="NEIGHBORHOOD x 4ING 联合推出儿童自行车Kick Bike">NEIGHBORHOOD x 4ING 联合推出儿童自行车Kick Bike</a>
@@ -254,28 +338,28 @@
 
          <div class="widget">
 
-<div style="background: url('__FONT__/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
+<div style="background: url('/index/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
 </div>
 <ul id="ulHot">
 
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank"><img src="__FONT__/images/68.png" width="83" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank"><img src="/index/images/68.png" width="83" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/roadbicycle/110.html" target="_blank" title="环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车">环西冠军克里斯霍纳的个性化定制座驾 Trek Ma</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank"><img src="__FONT__/images/146.jpg" width="83" title="英式折叠车Brompton Junction 上海旗舰店" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank"><img src="/index/images/146.jpg" width="83" title="英式折叠车Brompton Junction 上海旗舰店" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/small/184.html" target="_blank" title="英式折叠车Brompton Junction 上海旗舰店">英式折叠车Brompton Junction 上海旗舰店</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/vintagebicycle/57.html" target="_blank"><img src="__FONT__/images/17.jpg" width="83" title="延时胶片摄影：上海复古骑行大会" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/vintagebicycle/57.html" target="_blank"><img src="/index/images/17.jpg" width="83" title="延时胶片摄影：上海复古骑行大会" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/vintagebicycle/57.html" target="_blank" title="延时胶片摄影：上海复古骑行大会">延时胶片摄影：上海复古骑行大会</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/199.html" target="_blank"><img src="__FONT__/images/159.jpg" width="83" title="Brompton小布2012女王纪念版" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/small/199.html" target="_blank"><img src="/index/images/159.jpg" width="83" title="Brompton小布2012女王纪念版" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/small/199.html" target="_blank" title="Brompton小布2012女王纪念版">Brompton小布2012女王纪念版</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/bmx/213.html" target="_blank"><img src="__FONT__/images/181.png" width="83" title="街头气息十足 Stussy 2013 秋冬系列新品LOOKBOOK" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/lookbike/bmx/213.html" target="_blank"><img src="/index/images/181.png" width="83" title="街头气息十足 Stussy 2013 秋冬系列新品LOOKBOOK" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/lookbike/bmx/213.html" target="_blank" title="街头气息十足 Stussy 2013 秋冬系列新品LOOKBOOK">街头气息十足 Stussy 2013 秋冬系列新品LOOKB</a></div>
 </li>
 
@@ -287,7 +371,7 @@
             <div class="widget portrait">
     <div>
         <div class="textwidget">
-            <a href="/tougao.html"><img src="__FONT__/images/tg.jpg" alt="鎶曠ǹ"></a><br><br>
+            <a href="/tougao.html"><img src="/index/images/tg.jpg" alt="鎶曠ǹ"></a><br><br>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870073");</script>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870080");</script>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870081");</script>
@@ -338,10 +422,28 @@
 </script>
 
     </div>
-{include file="public/footer" /}
+<div id="footer_wrap">
+    <div id="footer">
+        <div class="footer_navi">
+            <ul id="menu-%e5%b0%be%e9%83%a8%e5%af%bc%e8%88%aa" class="menu">
+                <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
+                    <a href="/aboutus.html">关于我们</a></li>
+                <li id="menu-item-157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-157">
+                    <a href="/news/">行业资讯</a></li>
+                <li id="menu-item-158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-158">
+                    <a href="/tougao.html">我要投稿</a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <span class="legal">Copyright &#169; 2016-2020 qq群：484519446 版权所有&#160;&#160;&#160;<a href="#">
+                琼ICP备******号</a>&#160;&#160;&#160;
+
+        </div>
+    </div>
+</div>
 <div style="display: none;" id="scroll">
 </div>
-<script type="text/javascript" src="__FONT__/style/z700bike_global.js"></script>
+<script type="text/javascript" src="/index/style/z700bike_global.js"></script>
 
 </body>
 </html>

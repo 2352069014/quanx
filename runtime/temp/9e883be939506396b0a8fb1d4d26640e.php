@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:84:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/index\view\index\article.htm";i:1583201164;s:74:"F:\phpstudy\PHPTutorial\WWW\quanx\application\index\view\public\footer.htm";i:1583200679;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,20 +6,20 @@
 <title>童老师ThinkPHP5交流群：484519446</title>
 <meta name="description" content="童老师ThinkPHP5交流群：484519446" />
 <meta name="keywords" content="童老师ThinkPHP5交流群：484519446" />
-<link rel="stylesheet" type="text/css" media="all" href="__FONT__/style/style.css" />
-<script src="__FONT__/style/jquery-1.4.1.min.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.error.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jtemplates.js" type="text/javascript"></script>
-    <script src="__FONT__/style/jquery.form.js" type="text/javascript"></script>
-    <script src="__FONT__/style/lazy.js" type="text/javascript"></script>
-    <script type="text/javascript" src="__FONT__/style/wp-sns-share.js"></script>
-    <script type="text/javascript" src="__FONT__/style/voterajax.js"></script>
-    <script type="text/javascript" src="__FONT__/style/userregister.js"></script>
-    <link rel="stylesheet" href="__FONT__/style/pagenavi-css.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="__FONT__/style/votestyles.css" type="text/css" />
-    <link rel="stylesheet" href="__FONT__/style/voteitup.css" type="text/css" />
-    <link rel="stylesheet" href="__FONT__/style/article.css" type="text/css" />
+<link rel="stylesheet" type="text/css" media="all" href="/index/style/style.css" />
+<script src="/index/style/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.error.js" type="text/javascript"></script>
+    <script src="/index/style/jtemplates.js" type="text/javascript"></script>
+    <script src="/index/style/jquery.form.js" type="text/javascript"></script>
+    <script src="/index/style/lazy.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/index/style/wp-sns-share.js"></script>
+    <script type="text/javascript" src="/index/style/voterajax.js"></script>
+    <script type="text/javascript" src="/index/style/userregister.js"></script>
+    <link rel="stylesheet" href="/index/style/pagenavi-css.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/index/style/votestyles.css" type="text/css" />
+    <link rel="stylesheet" href="/index/style/voteitup.css" type="text/css" />
+    <link rel="stylesheet" href="/index/style/article.css" type="text/css" />
 <script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
 <script language="javascript" type="text/javascript">
 <!--
@@ -201,7 +202,7 @@ function ILike(th, v) {
         </form>
                         </div>
                 <div style="float: left;">
-                    <img src="__FONT__/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
+                    <img src="/index/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
                         padding: 0px;" onclick="subForm()"  /></div>
                 <div style="clear: both;">
                 </div>
@@ -273,11 +274,11 @@ function ILike(th, v) {
                                     &nbsp;&nbsp;猜您喜欢的文章
                                 </div>
                                 <ul class="read" style="list-style-type: none; margin-top: 10px; width: 780px;">
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/379.html" target="_blank"><img src="__FONT__/images/342.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
+<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/379.html" target="_blank"><img src="/index/images/342.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
 <span style="margin: 0px; padding: 0px; margin-top: -5px;">众里寻她千百度，蓦然回首，那景却在，延京深</span></a></li>
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/377.html" target="_blank"><img src="__FONT__/images/336.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
+<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/377.html" target="_blank"><img src="/index/images/336.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
 <span style="margin: 0px; padding: 0px; margin-top: -5px;">周末4+2出行 到北京怀柔喇叭沟门赏红叶</span></a></li>
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/363.html" target="_blank"><img src="__FONT__/images/323.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
+<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/363.html" target="_blank"><img src="/index/images/323.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
 <span style="margin: 0px; padding: 0px; margin-top: -5px;">周末随拍：北京单车生活</span></a></li>
 
                                 </ul>
@@ -324,28 +325,28 @@ function ILike(th, v) {
 
          <div class="widget">
 
-<div style="background: url('__FONT__/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
+<div style="background: url('/index/images/hots_bg.png') no-repeat scroll 0 0 transparent;width:250px;height:52px;margin-bottom:15px;">
 </div>
 <ul id="ulHot">
 
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/368.html" target="_blank"><img src="__FONT__/images/327.jpg" width="83" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/368.html" target="_blank"><img src="/index/images/327.jpg" width="83" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/368.html" target="_blank" title="骑摆记：比利时车手Joris的尼泊尔野马河谷山地车之旅">骑摆记：比利时车手Joris的尼泊尔野马河谷山</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/378.html" target="_blank"><img src="__FONT__/images/335.jpg" width="83" title="深圳设计师浩子和77的11天成都-稻城自虐骑行" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/378.html" target="_blank"><img src="/index/images/335.jpg" width="83" title="深圳设计师浩子和77的11天成都-稻城自虐骑行" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/378.html" target="_blank" title="深圳设计师浩子和77的11天成都-稻城自虐骑行">深圳设计师浩子和77的11天成都-稻城自虐骑行</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/389.html" target="_blank"><img src="__FONT__/images/347.jpg" width="83" title="执着的小辫与西藏的骑车旅行" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/389.html" target="_blank"><img src="/index/images/347.jpg" width="83" title="执着的小辫与西藏的骑车旅行" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/389.html" target="_blank" title="执着的小辫与西藏的骑车旅行">执着的小辫与西藏的骑车旅行</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/388.html" target="_blank"><img src="__FONT__/images/351.jpg" width="83" title="玄白朱单骑英国第二季 芒特索洛尔骑行" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/388.html" target="_blank"><img src="/index/images/351.jpg" width="83" title="玄白朱单骑英国第二季 芒特索洛尔骑行" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/388.html" target="_blank" title="玄白朱单骑英国第二季 芒特索洛尔骑行">玄白朱单骑英国第二季 芒特索洛尔骑行</a></div>
 </li>
 <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/382.html" target="_blank"><img src="__FONT__/images/345.jpg" width="83" title="子弹传球：北京-香港4000多公里单车寻爱之旅" /></a></div>
+<div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="/life/382.html" target="_blank"><img src="/index/images/345.jpg" width="83" title="子弹传球：北京-香港4000多公里单车寻爱之旅" /></a></div>
 <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="/life/382.html" target="_blank" title="子弹传球：北京-香港4000多公里单车寻爱之旅">子弹传球：北京-香港4000多公里单车寻爱之旅</a></div>
 </li>
 
@@ -357,7 +358,7 @@ function ILike(th, v) {
             <div class="widget portrait">
     <div>
         <div class="textwidget">
-            <a href="/tougao.html"><img src="__FONT__/style/img/tg.jpg" alt="鎶曠ǹ"></a><br><br>
+            <a href="/tougao.html"><img src="/index/style/img/tg.jpg" alt="鎶曠ǹ"></a><br><br>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870073");</script>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870080");</script>
 <script type="text/javascript">BAIDU_CLB_fillSlot("870081");</script>
@@ -371,18 +372,36 @@ function ILike(th, v) {
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="__FONT__/style/z700bike_global.js"></script>
-    <script type="text/javascript" src="__FONT__/style/z700bike_single.js"></script>
+    <script type="text/javascript" src="/index/style/z700bike_global.js"></script>
+    <script type="text/javascript" src="/index/style/z700bike_single.js"></script>
 
-    <script type='text/javascript' src='__FONT__/style/jquery.colorbox-min.js?ver=1.3.17.2'></script>
+    <script type='text/javascript' src='/index/style/jquery.colorbox-min.js?ver=1.3.17.2'></script>
 
 
     </div>
 
-{include file="public/footer" /}
+<div id="footer_wrap">
+    <div id="footer">
+        <div class="footer_navi">
+            <ul id="menu-%e5%b0%be%e9%83%a8%e5%af%bc%e8%88%aa" class="menu">
+                <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
+                    <a href="/aboutus.html">关于我们</a></li>
+                <li id="menu-item-157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-157">
+                    <a href="/news/">行业资讯</a></li>
+                <li id="menu-item-158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-158">
+                    <a href="/tougao.html">我要投稿</a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <span class="legal">Copyright &#169; 2016-2020 qq群：484519446 版权所有&#160;&#160;&#160;<a href="#">
+                琼ICP备******号</a>&#160;&#160;&#160;
+
+        </div>
+    </div>
+</div>
 <div style="display: none;" id="scroll">
 </div>
-<script type="text/javascript" src="__FONT__/style/z700bike_global.js"></script>
+<script type="text/javascript" src="/index/style/z700bike_global.js"></script>
 
  
 </body>
