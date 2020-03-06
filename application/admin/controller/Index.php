@@ -73,13 +73,6 @@ class Index extends Common
 	}
 
 
-	static function getExists($table='admin',$field='name',$value,$id = ''){
-		$where = [];
-		if(!empty($id)){
-			$where['id']	=	array('neq',$id);
-		}
-		return db($table)->where($field,$value)->where($where)->count();
-	}
 
 	public function del(){
 		$id 	= input('id');

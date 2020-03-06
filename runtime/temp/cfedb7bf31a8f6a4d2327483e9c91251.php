@@ -1,7 +1,8 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:82:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\index\index.htm";i:1583199921;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:81:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\group\list.htm";i:1583483562;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583483125;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
+    <meta charset="utf-8">
+    <title>童老师ThinkPHP交流群：484519446</title>
     <meta charset="utf-8">
 <meta name="description" content="Dashboard">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +19,15 @@
 <link href="/admin/style/typicons.css" rel="stylesheet">
 <link href="/admin/style/animate.css" rel="stylesheet">
 
+    <style>
+        .render {
+            width: 100%;
+            margin-right: 20%;
+            padding-top: 10px;
+            padding-left: 80%;
+        }
+    </style>
 </head>
-
 <body>
 <!-- 头部 -->
 <div class="navbar">
@@ -79,6 +87,7 @@
         </div>
     </div>
 </div>
+
 <!-- /头部 -->
 
 <div class="main-container container-fluid">
@@ -113,6 +122,20 @@
                     <a href="<?php echo url('index/list_r'); ?>">
                                     <span class="menu-text">
                                         管理列表                                    </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo url('Group/index'); ?>">
+                                    <span class="menu-text">
+                                        用户组列表                                    </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo url('Auth/index'); ?>">
+                                    <span class="menu-text">
+                                        权限列表                                    </span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -164,7 +187,10 @@
             <!-- Page Breadcrumb -->
             <div class="page-breadcrumbs">
                 <ul class="breadcrumb">
-                    <li class="active">控制面板</li>
+                    <li>
+                        <a href="#">管理员</a>
+                    </li>
+                    <li class="active">用户组列表</li>
                 </ul>
             </div>
             <!-- /Page Breadcrumb -->
@@ -172,17 +198,57 @@
             <!-- Page Body -->
             <div class="page-body">
 
-                <div style="text-align:center; line-height:1000%; font-size:24px;">
-                    童老师THinkPHP5.0正式版 第三季 实战开发大型CMS<br>
-                    <p style="color:#f00;">ThinkPHP交流群①：484519446【满】 | 群②：480018415【满】 | 群③：198909858</p></div>
+                <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '<?php echo url('group/add'); ?>'"> <i class="fa fa-plus"></i> Add
+                </button>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-body">
+                                <div class="flip-scroll">
+                                    <table class="table table-bordered table-hover">
+                                        <thead class="">
+                                        <tr>
+                                            <th class="text-center">ID</th>
+                                            <th class="text-center">用户组名称</th>
+                                            <th class="text-center">启用状态</th>
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php if(is_array($info) || $info instanceof \think\Collection || $info instanceof \think\Paginator): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?>
+                                        <tr>
+                                            <td align="center"><?php echo $value['id']; ?></td>
+                                            <td align="center"><?php echo $value['title']; ?></td>
+                                            <td align="center"><?php echo $value['status']; ?></td>
+                                            <td align="center">
+                                                <a href="<?php echo url('group/edit',array('id'=>$value['id'])); ?>" class="btn btn-primary btn-sm shiny">
+                                                    <i class="fa fa-edit"></i> 编辑
+                                                </a>
+                                                <a href="#" onClick="warning('确实要删除吗', '<?php echo url('group/del',array('id'=>$value['id'])); ?>')" class="btn btn-danger btn-sm shiny">
+                                                    <i class="fa fa-trash-o"></i> 删除
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach; endif; else: echo "" ;endif; ?>
+                                        </tbody>
+                                    </table>
+                                    <div class="render">
+                                        <?php echo $info->render(); ?>
+                                    </div>
+
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-
+            <!-- /Page Body -->
         </div>
-        <!-- /Page Body -->
+        <!-- /Page Content -->
     </div>
-    <!-- /Page Content -->
-</div>
 </div>
 
 <!--Basic Scripts-->
@@ -193,5 +259,4 @@
 <script src="/admin/style/beyond.js"></script>
 
 
-</body>
-</html>
+</body></html>

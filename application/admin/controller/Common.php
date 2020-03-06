@@ -36,5 +36,13 @@ class Common extends Controller{
 		}
 	}
 
+	 function getExists($table='admin',$field='name',$value,$id = ''){
+		$where = [];
+		if(!empty($id)){
+			$where['id']	=	array('neq',$id);
+		}
+		return db($table)->where($field,$value)->where($where)->count();
+	}
+
 
 }

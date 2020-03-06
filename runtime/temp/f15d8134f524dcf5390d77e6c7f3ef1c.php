@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:79:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\cate\add.htm";i:1583397082;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:79:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\cate\add.htm";i:1583457561;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
 <!DOCTYPE html>
 <html><head>
     <title>童老师ThinkPHP交流群：484519446</title>
@@ -174,7 +174,7 @@
                         <a href="#">栏目管理</a>
                     </li>
                                         <li>
-                        <a href="<?php echo url('index/list_r'); ?>">栏目列表</a>
+                        <a href="<?php echo url('Cate/getCateList'); ?>">栏目列表</a>
                     </li>
                                         <li class="active">添加栏目</li>
                                         </ul>

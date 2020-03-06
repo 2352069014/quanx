@@ -1,7 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:82:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\index\index.htm";i:1583199921;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:80:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\group\add.htm";i:1583485162;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583483125;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
+    <title>童老师ThinkPHP交流群：484519446</title>
     <meta charset="utf-8">
 <meta name="description" content="Dashboard">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,11 +18,16 @@
 <link href="/admin/style/typicons.css" rel="stylesheet">
 <link href="/admin/style/animate.css" rel="stylesheet">
 
+    <style>
+        .radio{
+            float: left;
+            margin-right:20px;
+        }
+    </style>
 </head>
-
 <body>
-<!-- 头部 -->
-<div class="navbar">
+	<!-- 头部 -->
+    <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -79,12 +84,13 @@
         </div>
     </div>
 </div>
-<!-- /头部 -->
 
-<div class="main-container container-fluid">
-    <div class="page-container">
-        <!-- Page Sidebar -->
-        <div class="page-sidebar" id="sidebar">
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+            <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -113,6 +119,20 @@
                     <a href="<?php echo url('index/list_r'); ?>">
                                     <span class="menu-text">
                                         管理列表                                    </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo url('Group/index'); ?>">
+                                    <span class="menu-text">
+                                        用户组列表                                    </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo url('Auth/index'); ?>">
+                                    <span class="menu-text">
+                                        权限列表                                    </span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -158,40 +178,84 @@
     </ul>
     <!-- /Sidebar Menu -->
 </div>
-        <!-- /Page Sidebar -->
-        <!-- Page Content -->
-        <div class="page-content">
-            <!-- Page Breadcrumb -->
-            <div class="page-breadcrumbs">
-                <ul class="breadcrumb">
-                    <li class="active">控制面板</li>
-                </ul>
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="#">栏目管理</a>
+                    </li>
+                                        <li>
+                        <a href="<?php echo url('Group/index'); ?>">用户组管理</a>
+                    </li>
+                                        <li class="active">添加用户</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">添加用户</span>
             </div>
-            <!-- /Page Breadcrumb -->
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="" method="post">
 
-            <!-- Page Body -->
-            <div class="page-body">
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label no-padding-right">用户组名称</label>
+                            <div class="col-sm-6">
+                                <input class="form-control"  placeholder="" name="title" required="" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label no-padding-right">启用状态</label>
+                            <div class="col-sm-6">
+                                <div class="control-group" style="margin-top: 6px;">
+                                    <label>
+                                        <input class="checkbox-slider slider-icon colored-success" type="checkbox" name="status" value="">
+                                        <span class="text"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label no-padding-right">配置权限</label>
 
-                <div style="text-align:center; line-height:1000%; font-size:24px;">
-                    童老师THinkPHP5.0正式版 第三季 实战开发大型CMS<br>
-                    <p style="color:#f00;">ThinkPHP交流群①：484519446【满】 | 群②：480018415【满】 | 群③：198909858</p></div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">保存信息</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-
         </div>
-        <!-- /Page Body -->
     </div>
-    <!-- /Page Content -->
-</div>
 </div>
 
-<!--Basic Scripts-->
-<script src="/admin/style/jquery_002.js"></script>
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="/admin/style/jquery_002.js"></script>
 <script src="/admin/style/bootstrap.js"></script>
 <script src="/admin/style/jquery.js"></script>
 <!--Beyond Scripts-->
 <script src="/admin/style/beyond.js"></script>
+    
 
 
-</body>
-</html>
+</body></html>

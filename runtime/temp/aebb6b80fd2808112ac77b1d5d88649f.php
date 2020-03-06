@@ -1,7 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:82:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\index\index.htm";i:1583199921;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:80:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\cate\edit.htm";i:1583460113;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
+    <title>童老师ThinkPHP交流群：484519446</title>
     <meta charset="utf-8">
 <meta name="description" content="Dashboard">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +18,13 @@
 <link href="/admin/style/typicons.css" rel="stylesheet">
 <link href="/admin/style/animate.css" rel="stylesheet">
 
+    <style>
+        .radio{
+            float: left;
+            margin-right:20px;
+        }
+    </style>
 </head>
-
 <body>
 <!-- 头部 -->
 <div class="navbar">
@@ -79,6 +84,7 @@
         </div>
     </div>
 </div>
+
 <!-- /头部 -->
 
 <div class="main-container container-fluid">
@@ -164,7 +170,13 @@
             <!-- Page Breadcrumb -->
             <div class="page-breadcrumbs">
                 <ul class="breadcrumb">
-                    <li class="active">控制面板</li>
+                    <li>
+                        <a href="#">栏目管理</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo url('Cate/getCateList'); ?>">栏目列表</a>
+                    </li>
+                    <li class="active">编辑栏目</li>
                 </ul>
             </div>
             <!-- /Page Breadcrumb -->
@@ -172,17 +184,71 @@
             <!-- Page Body -->
             <div class="page-body">
 
-                <div style="text-align:center; line-height:1000%; font-size:24px;">
-                    童老师THinkPHP5.0正式版 第三季 实战开发大型CMS<br>
-                    <p style="color:#f00;">ThinkPHP交流群①：484519446【满】 | 群②：480018415【满】 | 群③：198909858</p></div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-header bordered-bottom bordered-blue">
+                                <span class="widget-caption">编辑栏目</span>
+                            </div>
+                            <div class="widget-body">
+                                <div id="horizontal-form">
+                                    <form class="form-horizontal" role="form" action="" method="post">
+                                        <div class="form-group">
+                                            <label for="username" class="col-sm-2 control-label no-padding-right">上级栏目</label>
+                                            <div class="col-sm-6">
+                                                <select name="pid" >
+                                                    <option >--请选择--</option>
+                                                    <option value="0" <?php if($info['pid'] == 0): ?> selected = 'selected' <?php endif; ?>>顶级栏目</option>
+                                                    <?php if(is_array($cate) || $cate instanceof \think\Collection || $cate instanceof \think\Paginator): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
+                                                    <option value="<?php echo $v['id']; ?>"  <?php if($v['id'] == $info['pid']): ?> selected = "selected" <?php endif; ?>><?php echo str_repeat('|--',$v['level']); ?><?php echo $v['catename']; ?></option>
+                                                    <?php endforeach; endif; else: echo "" ;endif; ?>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="username" class="col-sm-2 control-label no-padding-right">栏目名称</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control"  placeholder="" name="catename" required="" type="text" value="<?php echo $info['catename']; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="username" class="col-sm-2 control-label no-padding-right">栏目类型</label>
+                                            <div class="col-sm-6">
+                                                <div class="control-group">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input name="type" type="radio" class="colored-blue"  value="1"  <?php if($info['type'] == 1): ?> checked="checked" <?php endif; ?>>
+                                                            <span class="text">列表</span>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input name="type" type="radio" class="colored-danger" value="2" <?php if($info['type'] == 2): ?> checked="checked" <?php endif; ?>>
+                                                            <span class="text">单页</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="submit" class="btn btn-default">保存信息</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-
+            <!-- /Page Body -->
         </div>
-        <!-- /Page Body -->
+        <!-- /Page Content -->
     </div>
-    <!-- /Page Content -->
-</div>
 </div>
 
 <!--Basic Scripts-->
@@ -193,5 +259,5 @@
 <script src="/admin/style/beyond.js"></script>
 
 
-</body>
-</html>
+
+</body></html>

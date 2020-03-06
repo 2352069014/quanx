@@ -36,6 +36,28 @@ class Cate extends Common
 			return $this->fetch();
 		}
 	}
+	public function edit(){
+		$id = input('id');
+		if(request()->isPost()){
+			$param	=	input('');
+			$exsit 	= $this->getExists('cate','catename',$param['catename'],$param['id']);
+			if($exsit){
+				$this->jsAlert('栏目已存在!','javascript:history.back(-1);');
+			}
+			$res =	$this->cate->edit($param);
+			if($res){
+				$this->success('编辑成功！','getCateList');
+			}else{
+				$this->error('编辑失败！');
+			}
+		}else{
+			$info = $this->cate->find($id)->toArray();
+			$cateInfo = $this->cate->all();
+			$this->assign('info',$info);
+			$this->assign('cate',$this->cate->sort($cateInfo));
+			return $this->fetch();
+		}
+	}
 
 	public function del(){
 		$id 	= input('id');

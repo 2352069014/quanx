@@ -50,6 +50,18 @@ class  Cate extends Model
 			return msgReturn('添加失败！', 0);
 		}
 	}
+	public function edit($param)
+	{
+		if (empty($param['catename']) || empty($param['type'])) {
+			return msgReturn('缺少重要参数！');
+		}
+		$res = $this->allowField(true)->save($param,['id'=>$param['id']]);
+		if ($res) {
+			return msgReturn('编辑成功！', 0);
+		} else {
+			return msgReturn('编辑失败！', 0);
+		}
+	}
 
 	/**
 	 * @param array  $param

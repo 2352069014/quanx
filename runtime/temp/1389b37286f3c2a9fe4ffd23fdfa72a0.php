@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:80:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\cate\list.htm";i:1583402422;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:80:"F:\phpstudy\PHPTutorial\WWW\quanx\public/../application/admin\view\cate\list.htm";i:1583402426;s:73:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\css_r.htm";i:1583142395;s:71:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\top.htm";i:1583374509;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\left.htm";i:1583392912;s:72:"F:\phpstudy\PHPTutorial\WWW\quanx\application\admin\view\public\js_r.htm";i:1583142063;}*/ ?>
 <!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">
@@ -216,7 +216,6 @@
                                     <?php if($value['type'] == 1): ?> 列表
                                     <?php else: ?>单页
                                     <?php endif; ?>
-
                                 </td>
                                 <td align="center"><?php echo $value['keywords']; ?></td>
                                 <td align="center"><?php echo $value['desc']; ?></td>
